@@ -1,0 +1,5 @@
+package com.digibank.codes;
+
+public enum DigibankCodes {
+
+}

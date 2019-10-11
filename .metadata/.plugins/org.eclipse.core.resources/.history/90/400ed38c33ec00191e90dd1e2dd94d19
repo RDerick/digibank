@@ -1,0 +1,20 @@
+package com.transactionsController;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.SessionScoped;
+import javax.inject.Inject;
+
+import com.digibank.dto.TransactionDTO;
+import com.digibank.services.TransactionService;
+
+@ManagedBean(name="transactionsController")
+@SessionScoped
+public class TransactionsController {
+
+	@ManagedProperty(value ="#{transactionDto}")
+	TransactionDTO transactionDto = new TransactionDTO();
+	
+	@Inject
+	TransactionService transactionService;
+}

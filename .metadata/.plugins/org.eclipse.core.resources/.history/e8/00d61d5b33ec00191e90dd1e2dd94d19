@@ -1,0 +1,13 @@
+package com.transactionsController;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.SessionScoped;
+
+@ManagedBean(name="transactionsController")
+@SessionScoped
+public class TransactionsController {
+
+	@ManagedProperty(value ="#{transactionDto}")
+	TransactionsDTO transactionDto = new TransactionsDTO();
+}

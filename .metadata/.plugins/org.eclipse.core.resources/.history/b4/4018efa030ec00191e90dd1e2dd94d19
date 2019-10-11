@@ -1,0 +1,8 @@
+package com.digibank.interfaces;
+
+import com.digibank.dto.TransactionDTO;
+
+public interface ITransactions {
+
+	saveTransactions(TransactionDTO)
+}

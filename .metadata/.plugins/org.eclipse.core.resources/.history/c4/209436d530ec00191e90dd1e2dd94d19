@@ -1,0 +1,16 @@
+package com.digibank.services;
+
+import com.digibank.dto.TransactionDTO;
+import com.digibank.interfaces.ITransactions;
+
+public class TransactionService implements ITransactions  {
+
+	@Override
+	public String saveTransactions(TransactionDTO transctionDto) {
+		if(transctionDto != null) {
+			
+		}
+		return null;
+	}
+
+}

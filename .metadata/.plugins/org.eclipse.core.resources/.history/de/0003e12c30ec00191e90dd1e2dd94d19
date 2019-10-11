@@ -1,0 +1,5 @@
+package com.digibank.dto;
+
+public class TransactionDTO {
+
+}

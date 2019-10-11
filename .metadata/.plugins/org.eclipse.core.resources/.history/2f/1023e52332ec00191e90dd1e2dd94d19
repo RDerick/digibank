@@ -1,0 +1,8 @@
+package com.digibank.codes;
+
+public class DigibankCodes {
+	
+	public static String SUCCESS = "SUCCESS";
+	public static String UNSUCCESS = "UNSUCCESS";
+ 
+}

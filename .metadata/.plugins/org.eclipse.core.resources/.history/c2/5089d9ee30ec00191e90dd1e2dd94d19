@@ -1,0 +1,20 @@
+package com.digibank.services;
+
+import javax.ejb.Stateless;
+
+import com.digibank.dto.TransactionDTO;
+import com.digibank.interfaces.ITransactions;
+
+@Stateless
+public class TransactionService implements ITransactions  {
+
+	@Override
+	public String saveTransactions(TransactionDTO transctionDto) {
+		
+		if(transctionDto != null) {
+			
+		}
+		return null;
+	}
+
+}

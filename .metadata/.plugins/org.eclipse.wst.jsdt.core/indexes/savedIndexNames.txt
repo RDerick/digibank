@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\DERICKRACHIDI\Documents\School\DSO\real work\manka\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1934921663.index
+3680266041.index
+1924342538.index
+3318244576.index
+3485147987.index
+2960376716.index
+1587358602.index
+2846915515.index

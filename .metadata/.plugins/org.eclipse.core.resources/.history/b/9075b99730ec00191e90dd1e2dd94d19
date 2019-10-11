@@ -1,0 +1,5 @@
+package com.digibank.interfaces;
+
+public interface ITransactions {
+
+}

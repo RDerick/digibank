@@ -1,0 +1,27 @@
+package com.digibank.services;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.digibank.codes.DigibankCodes;
+import com.digibank.dto.TransactionDTO;
+import com.digibank.interfaces.ITransactions;
+
+@Stateless
+public class TransactionService implements ITransactions  {
+
+	@PersistenceContext
+	EntityManager em;
+	
+	@Override
+	public String saveTransactions(TransactionDTO transctionDto) {
+		
+		if(transctionDto != null) {
+			em.persist(transctionDto);
+			return DigibankCodes.SUCCESS;
+		}
+		return DigibankCodes.UNSUCCESS;
+	}
+
+}
